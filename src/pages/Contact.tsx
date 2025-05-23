@@ -13,12 +13,12 @@ const Contact: React.FC<ContactProps> = ({ setIsHovering }) => {
     {
       icon: <MapPin size={24} className="text-accent-600" />,
       title: 'Our Location',
-      details: '123 Creative Street, Design District, New York, NY 10001',
+      details: 'Chak Ganjaria, C, G. City, Lucknow, Ahmamau, Uttar Pradesh 226002',
     },
     {
       icon: <Phone size={24} className="text-accent-600" />,
       title: 'Phone Number',
-      details: '+1 (555) 123-4567',
+      details: '+91 9999999999',
     },
     {
       icon: <Mail size={24} className="text-accent-600" />,
@@ -129,7 +129,7 @@ const Contact: React.FC<ContactProps> = ({ setIsHovering }) => {
           
           <div className="rounded-lg overflow-hidden shadow-lg h-96">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343077!2d-73.9882393846862!3d40.74844904366159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9aeb1c6b5%3A0x35b1cfbc89a6097f!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1663277225218!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.5154488122815!2d80.94615917497263!3d26.84669307673527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be2b2a7a6e9e3%3A0x2f60d189e93d52a0!2sLucknow%2C%20Uttar%20Pradesh%2C%20India!5e0!3m2!1sen!2sin!4v1716452381234!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
