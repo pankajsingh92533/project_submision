@@ -2,6 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle } from 'lucide-react';
 import AnimatedText from '../components/AnimatedText';
+import img2 from '../images/img2.avif';
+import img3 from '../images/img3.avif';
+import img4 from '../images/img4.avif';
+import img5 from '../images/img5.avif';
 
 interface AboutProps {
   setIsHovering: (isHovering: boolean) => void;
@@ -10,27 +14,27 @@ interface AboutProps {
 const About: React.FC<AboutProps> = ({ setIsHovering }) => {
   const team = [
     {
-      name: 'Sarah Johnson',
+      name: 'Luffy',
       role: 'Creative Director',
-      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      bio: 'With over 15 years of experience in design, Sarah leads our creative team with passion and vision.',
+      image: img2,
+      bio: 'With over 15 years of experience in design, Luffy leads our creative team with passion and vision.',
     },
     {
-      name: 'David Chen',
+      name: 'Goku',
       role: 'Lead Developer',
-      image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      bio: 'David is a full-stack developer who loves solving complex problems with elegant solutions.',
+      image: img3,
+      bio: 'Goku is a full-stack developer who loves solving complex problems with elegant solutions.',
     },
     {
-      name: 'Jessica Martinez',
+      name: 'Jessica',
       role: 'UX Designer',
-      image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      image: img4,
       bio: 'Jessica specializes in creating intuitive user experiences that balance form and function.',
     },
     {
-      name: 'Michael Park',
+      name: 'Michael',
       role: 'Project Manager',
-      image: 'https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      image: img5,
       bio: 'Michael ensures projects run smoothly, on time, and on budget with meticulous attention to detail.',
     },
   ];
